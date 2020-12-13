@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>Hello!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  
+  <body>
+    
+    <div id="homepage">
+      <center>
+        <img
+          id="home-logo"
+          src="https://cdn.glitch.com/608d00bb-5a60-43f2-b656-1a498870fd39%2FGoogle%20It..png?v=1607724025790"
+        />
+        <h5 style="margin: 10px;">The world's faster search engine</h5>
+        <form>
+          <input type="text" id="rcorners2" name="fname" /><br /><br />
+          <button onclick="search()" class="button">Search</button>
+          <button onclick="feelingLucky()" class="button">
+            I'm Feeling Lucky
+          </button>
+        </form>
+      </center>
+    </div>
+
+    <div id="new-header">
+      <img id="small-logo" src="https://cdn.glitch.com/608d00bb-5a60-43f2-b656-1a498870fd39%2FGoogle%20It..png?v=1607724025790" />
+      <input type="text" id="header-search" name="fname" /><br /><br />
+      <form>
+        <button onclick="search2()" placeholder="" id="header-submit">
+          Search
+        </button>
+      </form>
+    </div>
+
+    <h2 id="header"></h2>
+
+    <div class="whole">
+      <div class="top">
+        <div class="site">
+          <cite class="website" id="cite"> </cite>
+          <span class="mySpan" id="afterLink"></span>
+        </div>
+        <br />
+        <h3>
+          <a href="https://www.google.com/" class="title" id="results"></a>
+        </h3>
+      </div>
+      <p class="summary" id="content"></p>
+    </div>
+  </body>
+</html>
+
+<!--   <form action="/action_page.php">
+      <label for="fname">Google It Search:</label>     </form>
+-->
+
+<!--search bar-->

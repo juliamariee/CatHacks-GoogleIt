@@ -1,0 +1,169 @@
+/* CSS files add styling rules to your content */
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: helvetica, arial, sans-serif;
+    margin: 2em;
+}
+
+h1 {
+    font-family: "Times New Roman", Times, serif;
+    color: #00FF00;
+}
+
+h5 {
+    font-style: italic;
+    color: #616161;
+    font-size: 16px;
+}
+
+h3 {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.button {
+    height: 50px;
+    border: none;
+    background-color: #f1f1f1;
+    color: #525252;
+    padding: 0px 20px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 4px;
+    border: 1px solid #f1f1f1;
+}
+
+.button:hover {
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    outline: none !important;
+    box-shadow: none;
+}
+
+#home-logo {
+    margin-top: 5%;
+    width: 30vw;
+}
+
+.whole {
+    position: relative;
+    width: 600px;
+    margin-top: 0;
+    margin-bottom: 40px;
+    line-height: 1.2;
+    text-align: left;
+    font-weight: normal;
+    display: block;
+}
+
+.top {
+    font-weight: normal;
+    font-size: small;
+    line-height: 0.58;
+}
+
+.site {
+    display: inline-block;
+    padding-bottom: 1px;
+    padding-top: 1px;
+}
+
+.website {
+    font-size: 14px;
+    padding-top: 1px;
+    line-height: 0.3;
+    font-family: Roboto, arial, sans-serif;
+    font-weight: normal;
+    white-space: nowrap;
+    color: #5f6368;
+}
+
+.mySpan {
+    font-size: 14px;
+    font-weight: normal;
+    padding-top: 1px;
+    line-height: 0.3;
+    color: #5f6368;
+    webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    display: inline-block;
+    /*     margin-bottom: 3px; */
+    color: #1a0dab;
+    font-family: Roboto, arial, sans-serif;
+    padding-top: 1px;
+    padding-bottom: 6px;
+    font-size: 20px;
+    line-height: 0.3;
+    webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
+    font-weight: normal;
+}
+
+.summary {
+    max-width: 48em;
+    color: #4d5156;
+    font-weight: normal;
+    line-height: 0.58;
+    font-size: 14px;
+    font-family: Roboto, arial, sans-serif;
+}
+
+#rcorners2 {
+    border-radius: 25px;
+    border: 2px solid #D3D3D3;
+    padding: 15px;
+    width: 500px;
+    height: 15px;
+    outline: none;
+    font-size: 16px;
+}
+
+#header {
+    font-weight: normal;
+    font-size: 15px;
+    color: #8c8c8c;
+    line-height: 1.5;
+    padding-bottom: 25px;
+}
+
+#header-search {
+    visibility: hidden;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 25px;
+    border: 2px solid #D3D3D3;
+    outline: none;
+}
+
+#header-submit {
+    visibility: hidden;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+#new-header {
+    display: flex;
+    flex-direction: row;
+    margin: 3px;
+}
+
+#small-logo {
+    width: 120px;
+    height: 30px;
+}
+
+#rectangle {
+    width: 69696969px;
+    height: 69696969px;
+    background: blue;
+}
